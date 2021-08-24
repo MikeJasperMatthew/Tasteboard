@@ -8,6 +8,7 @@ class User(models.Model):
 
 class Style(models.Model):
     theme = models.CharField(max_length=20)
+
 class Board(models.Model):
     title = models.CharField(max_length=50)
     description = models.CharField(max_length=360)
